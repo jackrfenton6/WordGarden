@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var wordsBeingRevealedLabel: UILabel!
     @IBOutlet weak var guessLetterTextField: UITextField!
     @IBOutlet weak var guessLetterButton: UIButton!
+        guessedLetterTextField.resignFirstResponder()
     @IBOutlet weak var playAgainButton: UIButton!
     @IBOutlet weak var gameStatusMessageLabel: UILabel!
     @IBOutlet weak var flowerImageView: UIImageView!
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     @IBAction func guessLetterButtonPressed(_ sender: UIButton) {
     }
     @IBAction func playAgainButtonPressed(_ sender: Any) {
